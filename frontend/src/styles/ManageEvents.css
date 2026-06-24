@@ -1,0 +1,60 @@
+.events-container {
+  padding: 40px;
+}
+
+.events-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.create-btn {
+  border: none;
+  background: #4f46e5;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.event-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.event-card h2 {
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+.event-card p {
+  margin-bottom: 10px;
+  color: #64748b;
+}
+
+.event-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.event-actions button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}

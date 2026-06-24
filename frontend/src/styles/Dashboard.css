@@ -101,3 +101,69 @@
   display: block;
   text-decoration: none;
 }
+
+.club-card button {
+  margin-top: 15px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+
+.search-bar {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+}
+
+.category-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.category-row button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.club-desc {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin: 12px 0;
+  line-height: 1.5;
+  min-height: 70px;
+}
+
+.club-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.view-btn {
+  background: #4f46e5;
+  color: white;
+}
+
+.join-btn {
+  background: #10b981;
+  color: white;
+}
+
+.club-actions button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
